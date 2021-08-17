@@ -1,0 +1,18 @@
+.controls {
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+	margin-top: 25px;
+	margin-bottom: 30px;
+}
+
+@media (min-width: 992px) {
+	.controls {
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-between;
+		gap: 0;
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+}

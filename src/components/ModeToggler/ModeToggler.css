@@ -1,0 +1,31 @@
+.mode-toggler {
+	font-weight: 600;
+	font-size: 12px;
+	color: var(--text-color-light);
+	display: flex;
+	align-items: center;
+	background: none;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+.mode-toggler__input {
+	display: none;
+}
+
+.mode-toggler__icon {
+	font-size: 20px !important;
+	margin-right: 5px;
+}
+
+@media (min-width: 992px) {
+	.mode-toggler {
+		font-size: 16px;
+	}
+}
+
+/* DARK MODE */
+.mode-toggler--dark.mode-toggler {
+	color: var(--text-color-dark);
+}

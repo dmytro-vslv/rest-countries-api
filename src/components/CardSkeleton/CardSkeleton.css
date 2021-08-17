@@ -1,0 +1,56 @@
+.card-skeleton {
+	width: 100%;
+	height: 336px;
+	margin: 0 auto;
+	background: #fff;
+	box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
+	border-radius: 5px;
+	overflow: hidden;
+	position: relative;
+}
+
+.card-skeleton__shimmer {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.card-skeleton__flag {
+	width: 100%;
+	height: 160px;
+	background-color: #ddd;
+}
+
+.card-skeleton__info {
+	padding: 24px;
+}
+
+.card-skeleton__title,
+.card-skeleton__stat {
+	border-radius: 5px;
+}
+
+.card-skeleton__title {
+	width: 150px;
+	height: 25px;
+	background-color: #ddd;
+	margin-bottom: 16px;
+}
+
+.card-skeleton__stat {
+	width: 130px;
+	height: 20px;
+	background-color: #ddd;
+	margin-bottom: 8px;
+}
+
+/* DARK MODE */
+.card-skeleton--dark.card-skeleton {
+	background-color: #2b3844;
+}
+
+.card-skeleton--dark .card-skeleton__flag,
+.card-skeleton--dark .card-skeleton__title,
+.card-skeleton--dark .card-skeleton__stat {
+	background-color: #29445e;
+}

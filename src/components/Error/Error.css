@@ -1,0 +1,11 @@
+.error {
+	font-size: 20px;
+	margin-top: 140px;
+	color: var(--text-color-light);
+	text-align: center;
+}
+
+/* DARK MODE */
+.error--dark.error {
+	color: var(--text-color-dark);
+}
